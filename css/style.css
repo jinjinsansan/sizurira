@@ -773,6 +773,50 @@ ul {
   background: #05b34c;
 }
 
+/* --- LINE Banner (CTA section) --- */
+.cta-line-banner {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: #06c755;
+  color: var(--white);
+  padding: 18px 48px;
+  border-radius: 50px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  transition: var(--transition);
+  letter-spacing: 0.05em;
+}
+
+.cta-line-banner:hover {
+  background: #05b34c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(6, 199, 85, 0.3);
+}
+
+/* --- LINE Banner (Hero) --- */
+.btn-line-banner {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #06c755;
+  color: var(--white);
+  padding: 16px 40px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
+  letter-spacing: 0.05em;
+}
+
+.btn-line-banner:hover {
+  background: #05b34c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(6, 199, 85, 0.3);
+}
+
 /* --- Footer --- */
 .footer {
   background: #2a2a2a;
